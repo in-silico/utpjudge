@@ -1,0 +1,6 @@
+[submodule "judge-frontend"]
+	path = judge-frontend
+	url = git@github.com:in-silico/judge-frontend.git
+[submodule "judge-backend"]
+	path = judge-backend
+	url = git@github.com:in-silico/judge-backend.git
