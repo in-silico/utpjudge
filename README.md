@@ -24,7 +24,7 @@ Set-up judge behind reverse proxy
         127.0.1.1	api.judge.is
 
 
-- Add basic configuration for nginx
+- Add basic configuration for nginx at '/etc/nginx/sites-available/default'
 
 ```
 server {
