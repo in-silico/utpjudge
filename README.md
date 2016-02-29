@@ -60,13 +60,15 @@ server {
 
 ```
 
+*NOTE:* Remember to update the nginx server using `nginx -s reload` as root. 
+
 Get API keys from github
 ========================
 
 In order to authenticate users with github you'll need to get your own keys from github.com
 
 Register you app here https://github.com/settings/applications/new and then copy
-your private/public key into the config/oauth file.
+your private/public key into the config/oauth file __In both the judge backend and the judge frontend__.
 
 *NOTE:* I strongly recommend you to use the following command to avoid sharing your keys:
 
