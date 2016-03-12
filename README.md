@@ -66,7 +66,7 @@ You (probably) will receive that error when try to update large files.
 
 In order to fix that problem, you need to add the following in the http section:
 ```
-client_max_body_size 2M;
+client_max_body_size 50M;
 ```
 
 in the '/etc/nginx/nginx.conf' file
